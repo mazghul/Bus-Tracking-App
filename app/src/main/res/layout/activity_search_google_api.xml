@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?><!--Search Bus Front End Using API-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search_google_api"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.vuedata.bustrackingapp.SearchGoogleApiActivity">
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/password"
+        android:background="@android:color/holo_red_light"
+        android:onClick="signout"
+        android:text="Signout"
+        android:textColor="@android:color/white" />
+
+
+    <EditText
+        android:id="@+id/fromapi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signout"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Source"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/toapi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fromapi"
+        android:layout_alignStart="@+id/fromapi"
+        android:layout_below="@+id/fromapi"
+        android:ems="10"
+        android:hint="Destination"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/searchapi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toapi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="search_api"
+        android:text="search"
+        android:textColor="@android:color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchapi">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/detailsapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/searchapi"
+                android:layout_marginTop="36dp"
+                android:clickable="true"
+                android:onClick="track1"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

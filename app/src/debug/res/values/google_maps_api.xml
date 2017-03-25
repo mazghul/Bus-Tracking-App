@@ -1,0 +1,21 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=C2:1C:34:36:C9:FE:F8:AA:72:78:07:01:00:99:36:8D:24:AD:67:4A%3Bcom.vuedata.bustrackingapp
+
+    You can also add your credentials to an existing key, using this line:
+    C2:1C:34:36:C9:FE:F8:AA:72:78:07:01:00:99:36:8D:24:AD:67:4A;com.vuedata.bustrackingapp
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyC5Y3xe5iCnTeCxyPF-nzQmPj2j-KrZICU
+    </string>
+</resources>

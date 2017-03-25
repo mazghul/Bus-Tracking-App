@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BusTrackingApp</string>
+    <string name="title_activity_tracking">Track Your Bus</string>
+</resources>

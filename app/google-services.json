@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "497528739497",
+    "firebase_url": "https://bustrackingapp-810c5.firebaseio.com",
+    "project_id": "bustrackingapp-810c5",
+    "storage_bucket": "bustrackingapp-810c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497528739497:android:a057bba46acd39af",
+        "android_client_info": {
+          "package_name": "com.vuedata.bustrackingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497528739497-32tldhp2hq9qph6ure0eevrnmaolhchj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vuedata.bustrackingapp",
+            "certificate_hash": "C21C3436C9FEF8AA727807010099368D24AD674A"
+          }
+        },
+        {
+          "client_id": "497528739497-rl4eo7i8qa6hrdc6tu861rt7gsdl49th.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm2nMl1VVwo8bo00E7iS-S2RoXPhIRkzg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497528739497-rl4eo7i8qa6hrdc6tu861rt7gsdl49th.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
